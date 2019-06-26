@@ -16,6 +16,17 @@
 		0358F7C3170C791C00328D09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7C2170C791C00328D09 /* Default.png */; };
 		0358F7C5170C791C00328D09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7C4170C791C00328D09 /* Default@2x.png */; };
 		0358F7C7170C791C00328D09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7C6170C791C00328D09 /* Default-568h@2x.png */; };
+		0358F7CE170C792A00328D09 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7CD170C792A00328D09 /* CoreVideo.framework */; };
+		0358F7D0170C793100328D09 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7CF170C793100328D09 /* CoreImage.framework */; };
+		0358F7D2170C793700328D09 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7D1170C793700328D09 /* AssetsLibrary.framework */; };
+		0358F7D4170C793D00328D09 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7D3170C793D00328D09 /* CoreMedia.framework */; };
+		0358F7D6170C794200328D09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7D5170C794100328D09 /* QuartzCore.framework */; };
+		0358F7D8170C794900328D09 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7D7170C794900328D09 /* ImageIO.framework */; };
+		0358F7DA170C795100328D09 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0358F7D9170C795100328D09 /* AVFoundation.framework */; };
+		0358F7DD170C79B100328D09 /* DWIDetectFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358F7DC170C79B100328D09 /* DWIDetectFace.m */; };
+		0358F7E0170C849B00328D09 /* DWIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358F7DF170C849B00328D09 /* DWIMainViewController.m */; };
+		0358F7E2170C863000328D09 /* Shades.png in Resources */ = {isa = PBXBuildFile; fileRef = 0358F7E1170C863000328D09 /* Shades.png */; };
+		F4AB168818DD8D9500BCBC99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AB168718DD8D9500BCBC99 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,19 @@
 		0358F7C2170C791C00328D09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0358F7C4170C791C00328D09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0358F7C6170C791C00328D09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0358F7CD170C792A00328D09 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0358F7CF170C793100328D09 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0358F7D1170C793700328D09 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0358F7D3170C793D00328D09 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0358F7D5170C794100328D09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0358F7D7170C794900328D09 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0358F7D9170C795100328D09 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0358F7DB170C79B100328D09 /* DWIDetectFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWIDetectFace.h; sourceTree = "<group>"; };
+		0358F7DC170C79B100328D09 /* DWIDetectFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWIDetectFace.m; sourceTree = "<group>"; };
+		0358F7DE170C849B00328D09 /* DWIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWIMainViewController.h; sourceTree = "<group>"; };
+		0358F7DF170C849B00328D09 /* DWIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWIMainViewController.m; sourceTree = "<group>"; };
+		0358F7E1170C863000328D09 /* Shades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shades.png; sourceTree = "<group>"; };
+		F4AB168718DD8D9500BCBC99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0358F7DA170C795100328D09 /* AVFoundation.framework in Frameworks */,
+				0358F7D8170C794900328D09 /* ImageIO.framework in Frameworks */,
+				0358F7D6170C794200328D09 /* QuartzCore.framework in Frameworks */,
+				0358F7D4170C793D00328D09 /* CoreMedia.framework in Frameworks */,
+				0358F7D2170C793700328D09 /* AssetsLibrary.framework in Frameworks */,
+				0358F7D0170C793100328D09 /* CoreImage.framework in Frameworks */,
+				0358F7CE170C792A00328D09 /* CoreVideo.framework in Frameworks */,
 				0358F7B1170C791C00328D09 /* UIKit.framework in Frameworks */,
 				0358F7B3170C791C00328D09 /* Foundation.framework in Frameworks */,
 				0358F7B5170C791C00328D09 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +99,13 @@
 		0358F7AF170C791C00328D09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0358F7D9170C795100328D09 /* AVFoundation.framework */,
+				0358F7D7170C794900328D09 /* ImageIO.framework */,
+				0358F7D5170C794100328D09 /* QuartzCore.framework */,
+				0358F7D3170C793D00328D09 /* CoreMedia.framework */,
+				0358F7D1170C793700328D09 /* AssetsLibrary.framework */,
+				0358F7CF170C793100328D09 /* CoreImage.framework */,
+				0358F7CD170C792A00328D09 /* CoreVideo.framework */,
 				0358F7B0170C791C00328D09 /* UIKit.framework */,
 				0358F7B2170C791C00328D09 /* Foundation.framework */,
 				0358F7B4170C791C00328D09 /* CoreGraphics.framework */,
@@ -78,9 +116,12 @@
 		0358F7B6170C791C00328D09 /* DealWithIt */ = {
 			isa = PBXGroup;
 			children = (
-				0358F7BF170C791C00328D09 /* DWIAppDelegate.h */,
-				0358F7C0170C791C00328D09 /* DWIAppDelegate.m */,
 				0358F7B7170C791C00328D09 /* Supporting Files */,
+				0358F7DB170C79B100328D09 /* DWIDetectFace.h */,
+				0358F7DC170C79B100328D09 /* DWIDetectFace.m */,
+				0358F7DE170C849B00328D09 /* DWIMainViewController.h */,
+				0358F7DF170C849B00328D09 /* DWIMainViewController.m */,
+				F4AB168718DD8D9500BCBC99 /* Images.xcassets */,
 			);
 			path = DealWithIt;
 			sourceTree = "<group>";
@@ -88,6 +129,9 @@
 		0358F7B7170C791C00328D09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0358F7E1170C863000328D09 /* Shades.png */,
+				0358F7BF170C791C00328D09 /* DWIAppDelegate.h */,
+				0358F7C0170C791C00328D09 /* DWIAppDelegate.m */,
 				0358F7B8170C791C00328D09 /* DealWithIt-Info.plist */,
 				0358F7B9170C791C00328D09 /* InfoPlist.strings */,
 				0358F7BC170C791C00328D09 /* main.m */,
@@ -128,6 +172,11 @@
 				CLASSPREFIX = DWI;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Orangeninja;
+				TargetAttributes = {
+					0358F7AC170C791C00328D09 = {
+						DevelopmentTeam = 72QYCYTSY4;
+					};
+				};
 			};
 			buildConfigurationList = 0358F7A8170C791B00328D09 /* Build configuration list for PBXProject "DealWithIt" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,7 +203,9 @@
 				0358F7BB170C791C00328D09 /* InfoPlist.strings in Resources */,
 				0358F7C3170C791C00328D09 /* Default.png in Resources */,
 				0358F7C5170C791C00328D09 /* Default@2x.png in Resources */,
+				F4AB168818DD8D9500BCBC99 /* Images.xcassets in Resources */,
 				0358F7C7170C791C00328D09 /* Default-568h@2x.png in Resources */,
+				0358F7E2170C863000328D09 /* Shades.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +218,8 @@
 			files = (
 				0358F7BD170C791C00328D09 /* main.m in Sources */,
 				0358F7C1170C791C00328D09 /* DWIAppDelegate.m in Sources */,
+				0358F7DD170C79B100328D09 /* DWIDetectFace.m in Sources */,
+				0358F7E0170C849B00328D09 /* DWIMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,9 +296,13 @@
 		0358F7CB170C791C00328D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 72QYCYTSY4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DealWithIt/DealWithIt-Prefix.pch";
 				INFOPLIST_FILE = "DealWithIt/DealWithIt-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeninja.DealWithIt2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,9 +311,13 @@
 		0358F7CC170C791C00328D09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 72QYCYTSY4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DealWithIt/DealWithIt-Prefix.pch";
 				INFOPLIST_FILE = "DealWithIt/DealWithIt-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangeninja.DealWithIt2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +342,7 @@
 				0358F7CC170C791C00328D09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
